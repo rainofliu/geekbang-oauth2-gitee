@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gitee-demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c591f042-5080-49e2-869a-351ab8294863" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/../../opensource/java8/src/cn/ajin/test/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ajin/gitee/util/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/redisson/RedissonDebugDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/test/FastJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/main/java/cn/ajin/redis/util/UserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-in-action/src/test/java/cn/ajin/redis/RedisOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sentinel-learn/src/main/java/cn/ajin/sentinel/learn/SentinelLearnDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/controller/ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/dao/ReportTaskDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/dao/ReportTaskDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/dao/ReportTaskVoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/dao/ReportTaskVoteDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/db/DruidDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/domain/ReportTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/domain/ReportTaskVote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/mapper/ReportTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/mapper/ReportTaskVoteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/service/ReportTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/service/ReportTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/service/ReportTaskVoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/java/com/ajin/c2c/social/govern/report/service/ReportTaskVoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-report/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer-api/src/main/java/com/ajin/c2c/social/govern/reviewer/api/ReviewerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/dao/ReviewerTaskStatusDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/dao/ReviewerTaskStatusDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/db/DruidDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/domain/ReviewerTaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/mapper/ReviewerTaskStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/java/com/ajin/c2c/social/govern/reviewer/service/ReviewerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reviewer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward-api/src/main/java/com/ajin/c2c/social/govern/reward/api/RewardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/dao/RewardCoinDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/dao/RewardCoinDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/db/DruidDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/domain/RewardCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/mapper/RewardCoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/java/com/ajin/c2c/social/govern/reward/service/RewardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/c2c-social-govern-reward/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/c2c-social-govern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/credit-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/credit-service/src/main/java/com/ajin/credit/CreditApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/credit-service/src/main/java/com/ajin/credit/service/CreditServieImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/creditinterface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/creditinterface/src/main/java/com/zhss/credit/service/CreditApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/orderservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/dubboImpl/orderservice/src/main/java/com/zhss/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/configuration/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/kafka/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/kafka/KafkaMessageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/listener/InitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/mapper/ProductInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/model/ProductInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/model/ShopInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/prewarm/CachePrewarmThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/rebuild/RebuildCacheQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/rebuild/RebuildCacheThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/service/impl/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/spring/SpringContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/zk/ZooKeeperSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/java/com/ajin/eshop/cache/zk/ZooKeeperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-cache/src/main/resources/mybatis/product-info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/controller/ProductInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/dao/RedisDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/dao/impl/RedisDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/listener/InitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/mapper/ProductInventoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/model/ProductInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/request/ProductInventoryDBUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/request/ProductInventoryRefreshCacheRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/request/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/request/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/ProductInventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/RequestAsyncProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/impl/ProductInventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/impl/RequestAsyncProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/thread/RequestProcessorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/thread/RequestProcessorThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/java/com/ajin/eshop/inventory/vo/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/resources/mybatis/ProductInventoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-inventory/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/HotProductTopology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/bolt/LogParseBolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/bolt/ProductCountBolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/http/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/spout/AccessLogKafkaSpout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/eshop-storm/src/main/java/com/ajin/eshop/storm/zk/ZooKeeperSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/lua-script-demo/hello.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/lua-script-demo/product.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/lua-script-demo/template.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shishanCoder/strom-helloworld/src/main/java/com/ajin/eshop/storm/WordCountTopology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootlabs/lab1/src/main/java/cn/ajin/lab1/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotation-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotation-demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/AnnotationdesignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/CalculatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/CalculatingServiceBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/ConditinalMessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/ConditionalOnSystemProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/ConditionalOnSystemPropertyBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/IterationCalculatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/LambdaCalculatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/conditional/OnSystemPropertyCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/enable/importselector/ServerImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/webauto/MyWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/webauto/MyWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/webauto/custom/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/webauto/custom/SpringWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/webauto/custom/SpringWebMvcServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/java/com/thinkinginspringboot/automaticalasembly/AutomaticalasemblyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/java/com/thinkinginspringboot/automaticalasembly/ComponentScanDefaultPackageBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/java/com/thinkinginspringboot/automaticalasembly/FormatterBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/java/com/thinkinginspringboot/automaticalasembly/event/DefaultAutoConfigurationImportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/java/com/thinkinginspringboot/automaticalasembly/event/EnableAutoConfigurationBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/automaticalasembly/src/test/java/com/thinkinginspringboot/automaticalasembly/AutomaticalasemblyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/src/main/java/thinkinginspringboot/composedannotation/ComposedannotationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/composed-annotation/src/test/java/thinkinginspringboot/composedannotation/ComposedannotationApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/src/main/java/thinkinginspringboot/firstappbygui/FirstAppByGuiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/first-app-by-gui/src/test/java/thinkinginspringboot/firstappbygui/FirstAppByGuiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/src/main/java/com/ajin/formatter/Formatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/src/main/java/com/ajin/formatter/configuration/FormatterAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/src/main/java/com/ajin/formatter/impl/DefaultFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/src/main/java/com/ajin/formatter/impl/JsonFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/formatterspringbootstarter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/spring-web-mvc-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/spring-web-mvc-demo/src/main/java/com/ajin/spring/web/mvc/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/spring-web-mvc-demo/src/main/webapp/WEB-INF/spring/app-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/spring-web-mvc-demo/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/spring-web-mvc-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/src/main/java/com/thinking/in/spring/boot/springapplicationdemo/SpringApplicationDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/src/main/java/com/thinking/in/spring/boot/springapplicationdemo/event/ApplicationListenerOnSpringEventsBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/springapplicationdemo/src/test/java/com/thinking/in/spring/boot/springapplicationdemo/SpringApplicationDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PositionService/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PositionService/controller/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PositionService/models/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PositionService/routes/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/ApplicationContextDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/MessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/java/com/ajin/bean/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringSourceCodeLearn/ioc/src/main/resources/applicationContext-ajin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/enable/importselector/EnableServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thinking-in-spring-boot/annotationdesign/src/main/java/com/ajin/thinkinginspringboot/annotationdesign/enable/importselector/EnableServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/CyclicBarrierDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/SemaphoreDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadConditionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadCountDownLatchDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadJoinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadMainJoinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadPoolDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/concurrent/thread/order/ThreadWaitDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/ReentrantReadWriteLockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/SimpleDateFormatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/StampedLockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/SynchronizedDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/TestDirectByteBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/TestThreadLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/WaitNotifyDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/designpattern/EnumSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/designpattern/InnerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/designpattern/InstanceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/designpattern/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/geektime/performancetuning/designpattern/Singleton2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/ClassLoaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/CloneDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/CloneablePerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/HashCodeAndEquals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/Resubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/ResubmitDataAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/ResubmitLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/SimpleDataFormatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/StringFinalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/ThreadSafeDateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/DateTimeFormatterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/LocalDateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/LocalDateTimeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/LocalTimeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/PeriodDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/javabasic/time/TimeTransferDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/mybatis/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/mybatis/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/java/com/ajin/tianba/mybatis/utils/GeneratePrimaryKeyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/main/resources/mybatis/mybatis-config-custom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tianba/src/test/java/com/ajin/tianba/mybatis/mapper/UserMapperTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/util/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2247">
+              <caret line="107" selection-start-line="107" selection-start-column="3" selection-end-line="125" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/AuthGiteeRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/model/AuthUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/utils/UrlBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/AuthRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/BaseAuthRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#1414#1415#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ajin/gitee/util/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ajin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ajin" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ajin" type="462c0819:PsiDirectoryNode" />
+              <item name="gitee" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitee-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitee-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618927038918" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../opensource" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="gitee-demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_gitee-demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10410" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="gitee-demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c591f042-5080-49e2-869a-351ab8294863" name="Default Changelist" comment="" />
+      <created>1618925105860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618925105860</updated>
+      <workItem from="1618925109399" duration="1921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1921000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3286219" />
+      <window_info anchor="bottom" id="Code comment" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3286219" />
+      <window_info anchor="bottom" id="Sequence" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="MyBatis Log" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286219" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3286219" />
+      <window_info anchor="bottom" id="Code comment" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Sequence" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="6" />
+      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286219" />
+      <window_info anchor="bottom" id="MyBatis Log" order="13" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Message" order="15" />
+      <window_info anchor="bottom" id="Find" order="16" />
+      <window_info anchor="bottom" id="Run" order="17" />
+      <window_info active="true" anchor="bottom" id="Debug" order="18" visible="true" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="19" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="20" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="21" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="leetcode" order="2" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="LuaJ" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="676" column="19" selection-start-line="676" selection-start-column="19" selection-end-line="676" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2.jar!/me/zhyd/oauth/request/AuthRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/exception/AuthException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/AuthRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/BaseAuthRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/utils/UrlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/model/AuthUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/zhyd/oauth/JustAuth/1.3.2/JustAuth-1.3.2-sources.jar!/me/zhyd/oauth/request/AuthGiteeRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/util/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2247">
+          <caret line="107" selection-start-line="107" selection-start-column="3" selection-end-line="125" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ajin/gitee/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
